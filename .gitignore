@@ -1,0 +1,27 @@
+# Environment variables (NEVER commit real secrets)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.log
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
